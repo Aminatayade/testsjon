@@ -1,0 +1,32 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "title": "Problème réseau",
+      "description": "Impossible de se connecter au réseau interne.",
+      "creationDateTime": "2023-10-24T10:30:00",
+      "updateDateTime": "2023-10-24T15:00:00",
+      "impact": "Bloquant",
+      "status": "Ouvert",
+      "creator": {
+        "id": 101,
+        "name": "Jean Dupont",
+        "email": "jean.dupont@example.com",
+        "password": "hashed_password",
+        "lastConnectionDate": "2023-10-23T20:15:00",
+        "status": "Actif"
+      },
+      "computer": {
+        "id": 201,
+        "assignedUser": {
+          "id": 101,
+          "name": "Jean Dupont",
+          "email": "jean.dupont@example.com"
+        },
+        "status": "En Fonction",
+        "configuration": "Processeur Intel Core i7, 16GB RAM, SSD 512GB"
+      },
+      "requestType": "Demande de support technique"
+    }
+  ]
+}
