@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "titre": "Problème de connexion réseau",
+        "description": "Impossible de se connecter au réseau de l'entreprise.",
+        "dateCreation": "2024-11-29T09:00:00Z",
+        "dateMiseAJour": "2024-11-29T10:00:00Z",
+        "impact": "Bloquant",
+        "etat": "Ouvert",
+        "utilisateurCreateur": {
+            "id": 101,
+            "nom": "Jean Dupont",
+            "email": "jean.dupont@example.com"
+        },
+        "posteInformatique": {
+            "id": "PC-001",
+            "nom": "Poste Jean Dupont"
+        },
+        "typeDemande": "Assistance Réseau"
+    },
+    {
+        "id": 2,
+        "titre": "Mise à jour de logiciel",
+        "description": "Installation de la dernière version d'Office.",
+        "dateCreation": "2024-11-28T14:30:00Z",
+        "dateMiseAJour": "2024-11-28T15:00:00Z",
+        "impact": "Mineur",
+        "etat": "En cours",
+        "utilisateurCreateur": {
+            "id": 102,
+            "nom": "Marie Lemoine",
+            "email": "marie.lemoine@example.com"
+        },
+        "posteInformatique": {
+            "id": "PC-002",
+            "nom": "Poste Marie Lemoine"
+        },
+        "typeDemande": "Mise à jour logicielle"
+    }
+]

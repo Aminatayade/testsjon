@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "utilisateurAffecte": {
+            "id": 101,
+            "nom": "Jean Dupont",
+            "email": "jean.dupont@example.com"
+        },
+        "etat": "En fonction",
+        "configuration": "Intel i7, 16GB RAM, 512GB SSD, Windows 10 Pro"
+    },
+    {
+        "id": 2,
+        "utilisateurAffecte": {
+            "id": 102,
+            "nom": "Marie Lemoine",
+            "email": "marie.lemoine@example.com"
+        },
+        "etat": "En maintenance",
+        "configuration": "Intel i5, 8GB RAM, 256GB SSD, Windows 10 Home"
+    },
+    {
+        "id": 3,
+        "utilisateurAffecte": null,
+        "etat": "En commande",
+        "configuration": "MacBook Pro M2, 16GB RAM, 1TB SSD"
+    }
+]

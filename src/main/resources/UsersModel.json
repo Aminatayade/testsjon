@@ -1,0 +1,26 @@
+[
+    {
+        "id": 101,
+        "nom": "Jean Dupont",
+        "email": "jean.dupont@example.com",
+        "motDePasse": "password123",
+        "dateDerniereConnexion": "2024-11-28T08:45:00Z",
+        "statut": "Actif"
+    },
+    {
+        "id": 102,
+        "nom": "Marie Lemoine",
+        "email": "marie.lemoine@example.com",
+        "motDePasse": "securepass456",
+        "dateDerniereConnexion": "2024-11-27T17:30:00Z",
+        "statut": "Actif"
+    },
+    {
+        "id": 103,
+        "nom": "Paul Martin",
+        "email": "paul.martin@example.com",
+        "motDePasse": "pass789",
+        "dateDerniereConnexion": null,
+        "statut": "Inactif"
+    }
+]
